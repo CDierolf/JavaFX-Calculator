@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="457.0" prefWidth="630.0" styleClass="root" stylesheets="@calcCSS.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="523.0" prefWidth="293.0" spacing="3.0" styleClass="leftVBoxStyle" stylesheets="@calcCSS.css">
+         <children>
+            <TextArea prefHeight="119.0" prefWidth="305.0" styleClass="topTextArea" stylesheets="@calcCSS.css">
+               <VBox.margin>
+                  <Insets bottom="3.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </TextArea>
+            <VBox prefHeight="36.0" prefWidth="300.0">
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </VBox.margin>
+               <children>
+                  <HBox alignment="CENTER" prefHeight="30.0" prefWidth="300.0" spacing="10.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="cos" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="sin" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="tan" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="clearButtons" text="&lt;-" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="clearButtons" text="C" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="3.0" right="5.0" top="3.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="36.0" prefWidth="300.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="30.0" prefWidth="300.0" spacing="10.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="sqrt" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="x^y" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="x^2" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="x^3" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="ln" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="3.0" right="5.0" top="3.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox prefHeight="36.0" prefWidth="300.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="30.0" prefWidth="300.0" spacing="10.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="log" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="1/x" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="|x|" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="pi" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="e" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="3.0" right="5.0" top="3.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox prefHeight="36.0" prefWidth="300.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="30.0" prefWidth="300.0" spacing="10.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="(" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text=")" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="\%" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="frac" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="/" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="3.0" right="5.0" top="3.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox prefHeight="36.0" prefWidth="300.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="30.0" prefWidth="300.0" spacing="10.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" styleClass="numberButton" stylesheets="@calcCSS.css" text="7" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" styleClass="numberButton" text="8" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" styleClass="numberButton" text="9" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="x" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="3.0" right="5.0" top="3.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox prefHeight="36.0" prefWidth="300.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="30.0" prefWidth="300.0" spacing="10.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" styleClass="numberButton" text="4" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" styleClass="numberButton" text="5" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" styleClass="numberButton" text="6" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="-" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="3.0" right="5.0" top="3.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+            </VBox>
+            <VBox prefHeight="36.0" prefWidth="300.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="30.0" prefWidth="300.0" spacing="10.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" styleClass="numberButton" text="3" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" styleClass="numberButton" text="2" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" styleClass="numberButton" text="1" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="+" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="3.0" right="5.0" top="3.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+            </VBox>
+            <VBox prefHeight="36.0" prefWidth="300.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="30.0" prefWidth="300.0" spacing="10.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" styleClass="functionButtons" text="+/-" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" styleClass="numberButton" text="0" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" styleClass="functionButtons" text="." />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" styleClass="functionButtons" text="=" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="3.0" right="5.0" top="3.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+            </VBox>
+         </children>
+         <HBox.margin>
+            <Insets right="10.0" />
+         </HBox.margin>
+      </VBox>
+      <StackPane prefHeight="150.0" prefWidth="315.0" styleClass="root">
+         <children>
+            <TextArea prefHeight="200.0" prefWidth="315.0" styleClass="root">
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </TextArea>
+         </children>
+      </StackPane>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</HBox>

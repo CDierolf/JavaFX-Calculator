@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+/** 
+ * @Author Name: Christopher K. Dierolf
+ * @Date: Sep 9, 2019
+ * @Description: CSS - Primary CSS file for the Calculator app
+ */
+
+.numberButton {
+    -fx-background-color: #008ba3;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    
+}
+
+.clearButtons {
+    -fx-background-color: #8e0000;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    
+}
+
+.functionButtons {
+    -fx-background-color: #005cb2;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+.leftVBoxStyle {
+    -fx-background-color: #39796b;
+}
+
+.topTextArea {
+    -fx-background-color: #39796b;
+}
+.rightTextArea {
+    -fx-background-color: #4db6ac;
+}
+.root {
+    -fx-background-color: #4db6ac;
+}
