@@ -5,11 +5,14 @@
  */
 package calculator;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
 
 /**
  *
@@ -17,9 +20,9 @@ import javafx.scene.control.Button;
  */
 public class CalculatorController implements Initializable {
     
-    @FXML private Button cos;
-    @FXML private Button sin;
-    @FXML private Button tan;
+    @FXML private Button cosine;
+    @FXML private Button sine;
+    @FXML private Button tangent;
     @FXML private Button backSpace;
     @FXML private Button clear;
     @FXML private Button sqrt;
@@ -53,13 +56,31 @@ public class CalculatorController implements Initializable {
     @FXML private Button zero;
     @FXML private Button decimal;
     @FXML private Button equals;
+    @FXML private TextArea calculation;
+    @FXML private TextArea calcHistory;
     
     
+    public void handleCosineClick(ActionEvent event) throws IOException {
     
+    }
+    public void handleSineClick(ActionEvent event) throws IOException {
+        
+    }
+    public void handleTangentClick(ActionEvent event) throws IOException {
+        
+    }
+    public void handleBackspaceClick(ActionEvent event) throws IOException {
+        
+    }
+    public void handleClearClick(ActionEvent event) throws IOException {
+        
+    }
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+    
+    
     
 }
